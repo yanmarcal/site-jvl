@@ -7,7 +7,7 @@ const catalogItems = [
     title: "Carreta Baú",
     desc: "Baús fechados em fibra, alumínio ou misto para cargas secas de alto valor, com piso reforçado e sob medida.",
     specs: ["Fibra ou alumínio", "Piso madeira/plástico", "Fabricação sob medida"],
-    image: "https://images.unsplash.com/photo-1568607918870-9ddecf71275c?auto=format&fit=crop&w=1200&q=70",
+    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=70",
     msg: "Carreta Baú",
   },
   {
