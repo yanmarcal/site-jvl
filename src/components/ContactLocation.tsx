@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock, MessageSquare } from "lucide-react";
+import { MapPin, Phone, Clock, Mail, MessageSquare } from "lucide-react";
 
 export default function ContactLocation() {
   const waUrl = "https://wa.me/5511988887555?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20JVL%20e%20gostaria%20de%20or%C3%A7amento.";
@@ -52,6 +52,16 @@ export default function ContactLocation() {
 
                 <div className="flex items-start gap-3">
                   <div className="w-9 h-9 rounded-xl bg-emerald-950 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+                    <Mail className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h4 className="text-xs font-bold text-slate-400 uppercase">E-MAIL CORPORATIVO</h4>
+                    <p className="text-sm font-semibold text-white mt-0.5">jvl@jvlimplementos.com</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="w-9 h-9 rounded-xl bg-emerald-950 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
                     <Clock className="w-4 h-4" />
                   </div>
                   <div>
@@ -66,6 +76,10 @@ export default function ContactLocation() {
               <a href={waUrl} target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-4 rounded-xl shadow-lg">
                 <MessageSquare className="w-4 h-4" />
                 <span>Falar no WhatsApp Agora</span>
+              </a>
+              <a href="mailto:jvl@jvlimplementos.com" target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 border border-slate-500 rounded-xl py-3 px-4 text-slate-300 hover:border-slate-400 transition-all">
+                <Mail className="w-4 h-4" />
+                <span>Enviar E-mail para Cotação</span>
               </a>
             </div>
           </div>
@@ -85,9 +99,6 @@ export default function ContactLocation() {
               <iframe
                 title="Localização JVL Implementos Rodoviários"
                 src="https://maps.google.com/maps?q=Rua%20Jati%20339%20Cidade%20Jardim%20Cumbica%20Guarulhos%20SP&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
                 allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
