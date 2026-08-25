@@ -46,7 +46,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-black tracking-wider text-white">
-                JVL <span className="text-emerald-500">IMPLEMENTOS</span>
+                JVL <span className="text-emerald-500">IMPLEMENTOS RODOVIÁRIOS</span>
               </span>
               <span className="text-[10px] font-semibold tracking-widest uppercase text-slate-400">
                 Mecânica de Carretas • Desde 2010
