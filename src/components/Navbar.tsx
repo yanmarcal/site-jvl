@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 w-full shadow-2xl">
-      <div className="bg-blue-900 border-b border-slate-500/30 text-xs text-slate-300 py-2 px-4 sm:px-6">
+      <div className="bg-slate-950 border-b border-slate-500/30 text-xs text-slate-300 py-2 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-1.5">
             <MapPin className="w-3.5 h-3.5 text-lime-500 shrink-0" />
@@ -31,7 +31,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <nav className="bg-blue-900/95 backdrop-blur-md border-b border-slate-500 py-3 px-4 sm:px-6">
+      <nav className="bg-slate-950/95 backdrop-blur-md border-b border-slate-500 py-3 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <a href="#" className="flex items-center gap-3 group">
             <div className="flex-shrink-0">
@@ -40,7 +40,7 @@ export default function Navbar() {
                 alt="Logo JVL Implementos Rodoviários"
                 width={48}
                 height={48}
-                className="w-12 h-12 rounded-full object-cover shadow-lg shadow-lime-900/40 border border-slate-500/30 bg-blue-900"
+                className="w-12 h-12 rounded-full object-cover shadow-lg shadow-lime-900/40 border border-slate-500/30 bg-slate-950"
                 priority
               />
             </div>
@@ -78,7 +78,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2 rounded-lg bg-blue-900 text-slate-300 border border-slate-500"
+            className="md:hidden p-2 rounded-lg bg-slate-950 text-slate-300 border border-slate-500"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
