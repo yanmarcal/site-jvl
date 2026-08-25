@@ -30,7 +30,7 @@ export default function WhyUs() {
     {
       icon: Zap,
       title: "Localização Estratégica",
-      desc: "Situada na Rua João Gonçalves, 113 - Centro, São Paulo SP, facilitando a chegada para reparos na capital."
+      desc: "Situada na Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP, facilitando a chegada para reparos na região metropolitana."
     }
   ];
 

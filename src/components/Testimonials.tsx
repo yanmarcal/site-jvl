@@ -1,4 +1,4 @@
-import { Star, Quote, Truck, ShieldCheck } from "lucide-react";
+import { Star, Quote } from "lucide-react";
 
 export default function Testimonials() {
   const testimonialsList = [
@@ -59,7 +59,7 @@ export default function Testimonials() {
                 </div>
 
                 <p className="text-slate-300 text-xs sm:text-sm leading-relaxed mb-6 italic">
-                  "{item.text}"
+                  &quot;{item.text}&quot;
                 </p>
               </div>
 

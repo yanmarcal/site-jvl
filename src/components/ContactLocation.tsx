@@ -29,7 +29,7 @@ export default function ContactLocation() {
                   </div>
                   <div>
                     <h4 className="text-xs font-bold text-slate-400 uppercase">Endereço</h4>
-                    <p className="text-sm font-semibold text-white mt-0.5">Rua João Gonçalves, 113 - Centro, São Paulo - SP</p>
+                    <p className="text-sm font-semibold text-white mt-0.5">Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140</p>
                   </div>
                 </div>
 
@@ -74,9 +74,9 @@ export default function ContactLocation() {
             <div className="p-3 bg-slate-900 border-b border-slate-800 flex items-center justify-between">
               <span className="text-xs font-bold text-slate-300 flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-emerald-400" />
-                Rua João Gonçalves, 113 - Centro, São Paulo - SP
+                Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140
               </span>
-              <a href="https://maps.google.com/?q=Rua+Joao+Goncalves+113+Centro+Sao+Paulo+SP" target="_blank" rel="noopener noreferrer" className="text-xs text-emerald-400 font-semibold hover:underline">
+              <a href="https://maps.google.com/?q=Rua+Jati+339+Cidade+Jardim+Cumbica+Guarulhos+SP" target="_blank" rel="noopener noreferrer" className="text-xs text-emerald-400 font-semibold hover:underline">
                 Google Maps ↗
               </a>
             </div>
@@ -84,7 +84,7 @@ export default function ContactLocation() {
             <div className="w-full flex-1 min-h-[320px]">
               <iframe
                 title="Localização JVL Implementos Rodoviários"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197779777478!2d-46.6355!3d-23.5455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMyJzQzLjgiUyA0NsKwMzgnMDcuOCJX!5e0!3m2!1spt-BR!2sbr!4v1650000000000!5m2!1spt-BR!2sbr"
+                src="https://maps.google.com/maps?q=Rua%20Jati%20339%20Cidade%20Jardim%20Cumbica%20Guarulhos%20SP&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

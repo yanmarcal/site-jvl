@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Phone, MapPin, Menu, X, Wrench, MessageSquare } from "lucide-react";
+import Image from "next/image";
+import { Phone, MapPin, Menu, X, MessageSquare } from "lucide-react";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-1.5">
             <MapPin className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-            <span>Rua João Gonçalves, 113 - Centro, São Paulo - SP</span>
+            <span>Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140</span>
           </div>
           <div className="flex items-center gap-3">
             <span className="font-semibold text-emerald-400">Atendimento:</span>
@@ -33,8 +34,15 @@ export default function Navbar() {
       <nav className="bg-slate-950/95 backdrop-blur-md border-b border-slate-800 py-3 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <a href="#" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-emerald-600 to-emerald-800 rounded-lg flex items-center justify-center text-white shadow-lg shadow-emerald-900/40 border border-emerald-500/30">
-              <Wrench className="w-5 h-5" />
+            <div className="flex-shrink-0">
+              <Image
+                src="/logo-jvl.jpeg"
+                alt="Logo JVL Implementos Rodoviários"
+                width={48}
+                height={48}
+                className="w-12 h-12 rounded-full object-cover shadow-lg shadow-emerald-900/40 border border-emerald-500/30 bg-slate-900"
+                priority
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-black tracking-wider text-white">
@@ -48,6 +56,7 @@ export default function Navbar() {
 
           <div className="hidden md:flex items-center gap-6 font-medium text-sm text-slate-300">
             <a href="#inicio" className="hover:text-emerald-400">Início</a>
+            <a href="#catalogo" className="hover:text-emerald-400">Catálogo</a>
             <a href="#servicos" className="hover:text-emerald-400">Serviços</a>
             <a href="#sobre" className="hover:text-emerald-400">Sobre Nós</a>
             <a href="#diferenciais" className="hover:text-emerald-400">Diferenciais</a>
@@ -78,6 +87,7 @@ export default function Navbar() {
         {mobileMenuOpen && (
           <div className="md:hidden mt-3 pt-3 border-t border-slate-800 flex flex-col gap-2">
             <a href="#inicio" onClick={() => setMobileMenuOpen(false)} className="px-3 py-1.5 text-slate-200">Início</a>
+            <a href="#catalogo" onClick={() => setMobileMenuOpen(false)} className="px-3 py-1.5 text-slate-200">Catálogo</a>
             <a href="#servicos" onClick={() => setMobileMenuOpen(false)} className="px-3 py-1.5 text-slate-200">Serviços</a>
             <a href="#sobre" onClick={() => setMobileMenuOpen(false)} className="px-3 py-1.5 text-slate-200">Sobre Nós</a>
             <a href="#diferenciais" onClick={() => setMobileMenuOpen(false)} className="px-3 py-1.5 text-slate-200">Diferenciais</a>

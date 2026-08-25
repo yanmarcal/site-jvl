@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";
 import { MessageSquare, MapPin, Phone, Clock } from "lucide-react";
 
 export default function Footer() {
@@ -12,9 +12,13 @@ export default function Footer() {
           
           <div className="space-y-4">
             <div className="flex items-center gap-2.5">
-              <div className="w-9 h-9 rounded-xl bg-emerald-600 text-white font-black flex items-center justify-center text-sm shadow-lg">
-                JVL
-              </div>
+              <Image
+                src="/logo-jvl.jpeg"
+                alt="Logo JVL Implementos Rodoviários"
+                width={48}
+                height={48}
+                className="w-11 h-11 rounded-full object-cover shadow-lg border border-emerald-500/30 bg-slate-900"
+              />
               <span className="font-black text-white text-base tracking-wider uppercase">
                 JVL <span className="text-emerald-400">Implementos</span>
               </span>
@@ -23,7 +27,7 @@ export default function Footer() {
               Especialistas em mecânica de carretas, suspensão, elétrica e manutenção pesada em São Paulo desde 2010.
             </p>
             <div className="p-3 rounded-lg bg-emerald-950/40 border border-emerald-500/20 text-emerald-400 font-bold uppercase text-[11px]">
-              "ATENDER É O NOSSO NEGÓCIO!!"
+              &quot;ATENDER É O NOSSO NEGÓCIO!!&quot;
             </div>
           </div>
 
@@ -59,7 +63,7 @@ export default function Footer() {
             <div className="space-y-2 text-xs">
               <p className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                <span>Rua João Gonçalves, 113 - Centro, São Paulo - SP</span>
+                <span>Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140</span>
               </p>
               <p className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />

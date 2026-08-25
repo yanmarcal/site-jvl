@@ -1,7 +1,9 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import StatsBar from "@/components/StatsBar";
+import Catalog from "@/components/Catalog";
 import Services from "@/components/Services";
+import RoadsideBanner from "@/components/RoadsideBanner";
 import AboutUs from "@/components/AboutUs";
 import WhyUs from "@/components/WhyUs";
 import Testimonials from "@/components/Testimonials";
@@ -15,7 +17,9 @@ export default function Home() {
       <Navbar />
       <Hero />
       <StatsBar />
+      <Catalog />
       <Services />
+      <RoadsideBanner />
       <AboutUs />
       <WhyUs />
       <Testimonials />
@@ -25,4 +29,3 @@ export default function Home() {
     </main>
   );
 }
-

@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "elétrica de carreta",
     "inspeção veicular SP",
     "autopeças pesadas",
-    "Rua João Gonçalves Centro SP"
+    "Rua Jati Cidade Jardim Cumbica Guarulhos"
   ],
   authors: [{ name: "JVL Implementos Rodoviários" }],
   openGraph: {
