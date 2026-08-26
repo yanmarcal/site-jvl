@@ -27,7 +27,7 @@ export default function Footer() {
               Especialistas em mecânica de carretas, suspensão, elétrica e manutenção pesada em São Paulo desde 2010.
             </p>
             <div className="p-3 rounded-lg bg-emerald-950/40 border border-emerald-500/20 text-emerald-400 font-bold uppercase text-[11px]">
-              &quot;ATENDER É O NOSSO NEGÓCIO!&quot;
+              &quot;ATENDER É O NOSSO NEGÓCIO!!&quot;
             </div>
           </div>
 
@@ -63,7 +63,7 @@ export default function Footer() {
             <div className="space-y-2 text-xs">
               <p className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                <span>Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP, CEP 07180-140</span>
+                <span>Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140</span>
               </p>
               <p className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />

@@ -27,7 +27,7 @@ export default function AboutUs() {
             <div className="p-4 rounded-xl bg-gradient-to-r from-emerald-500/80 to-slate-900 border border-emerald-500/40">
               <div className="flex items-center gap-2 text-emerald-500 font-bold uppercase text-sm tracking-wider">
                 <HeartHandshake className="w-5 h-5" />
-                <span>&quot;ATENDER É O NOSSO NEGÓCIO!&quot;</span>
+                <span>&quot;ATENDER É O NOSSO NEGÓCIO!!&quot;</span>
               </div>
               <p className="text-slate-300 text-xs sm:text-sm mt-1.5">
                 Mais do que consertar carretas, construímos relações de parceria e confiança contínua com nossos clientes.
@@ -91,7 +91,7 @@ export default function AboutUs() {
                     <h3 className="text-base font-bold text-white">Estrutura & Localização</h3>
                     <p className="text-xs text-emerald-500 font-semibold flex items-center gap-1 mt-0.5">
                       <MapPin className="w-3.5 h-3.5" />
-                      Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP, CEP 07180-140
+                      Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140
                     </p>
                   </div>
                 </div>

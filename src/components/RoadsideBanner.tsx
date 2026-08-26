@@ -33,11 +33,11 @@ export default function RoadsideBanner() {
             </span>
 
             <h2 className="text-2xl sm:text-3xl font-black text-white leading-tight">
-              Paneu no meio da rota? A <span className="text-emerald-400">JVL</span> coloca você de volta à estrada.
+              Deu pane no meio da rota? A <span className="text-emerald-400">JVL</span> coloca você de volta à estrada.
             </h2>
 
             <p className="text-sm text-slate-300 leading-relaxed">
-              Atendimento ágil e profissional onde você precisar, minimizando seu tempo parado. Nossa equipe está pronta para atender com segurança e agilidade em casos de pane, emergência ou necessidade de suporte imediato.
+              Atendimento ágil e profissional onde você precisar, minimizando o tempo de parada. Nossa equipe está pronta para atender com segurança e agilidade em casos de pane, emergência ou necessidade de suporte imediato.
             </p>
 
             <ul className="flex flex-col gap-2 text-sm text-slate-200">

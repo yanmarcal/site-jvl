@@ -26,7 +26,7 @@ export default function Hero() {
         <div className="max-w-2xl flex flex-col gap-5">
           <div className="inline-flex items-center gap-2 self-start bg-emerald-950/80 backdrop-blur-sm border border-emerald-500/40 text-emerald-400 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">
             <Award className="w-4 h-4 text-emerald-500" />
-            <span className="text-emerald-500">Especialistas em Carretas desde 2010 · +14 Anos</span>
+            <span className="text-emerald-500">Especialistas em Carretas Desde 2010 • Mais de 14 Anos</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white leading-tight drop-shadow-lg">
@@ -38,9 +38,9 @@ export default function Hero() {
             Manutenção preventiva e corretiva, elétrica, suspensão, inspeção completa e fornecimento de autopeças para transportadoras, frotas próprias e agregados.
           </p>
 
-          <p className="text-emerald-500 font-bold uppercase tracking-wider text-sm">
-            &quot;Atender é o nosso negócio!&quot;
-          </p>
+<p className="text-emerald-500 font-bold uppercase tracking-wider text-sm">
+              &quot;Atender é o negócio!!&quot;
+            </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
             <a

@@ -5,7 +5,7 @@ export default function WhyUs() {
     {
       icon: Clock,
       title: "Agilidade no Tempo de Parada",
-      desc: "Sabemos que tempo no setor rodoviário é dinheiro. Nosso foco é realizar diagnósticos rápidos e execução ágil."
+      desc: "Sabemos que cada hora parada representa prejuízo. Nosso foco é diagnósticos rápidos e execução ágil."
     },
     {
       icon: ShieldCheck,
@@ -25,7 +25,7 @@ export default function WhyUs() {
     {
       icon: Layers,
       title: "Soluções para Frotas & Agregados",
-      desc: "Atendimento personalizado adaptado ao tamanho da sua operação transportadora ou veículo autônomo."
+      desc: "Atendimento adaptado ao tamanho da sua operação transportadora ou veículo autônomo."
     },
     {
       icon: Zap,
