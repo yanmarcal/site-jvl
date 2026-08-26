@@ -19,7 +19,7 @@ export default function Testimonials() {
     {
       name: "Juliana Mendes",
       role: "Diretora de Operações Logísticas",
-      text: "Encontrar uma oficina mecânica para pesados no centro de São Paulo com essa competência é difícil. A JVL cumpre prazos e o atendimento é impecável. ATENDER É O NOSSO NEGÓCIO é real lá!",
+      text: 'Encontrar uma oficina mecânica para pesados no centro de São Paulo com essa competência é difícil. A JVL cumpre prazos e o atendimento é impecável. "ATENDER É O NOSSO NEGÓCIO" é realidade lá!',
       rating: 5,
       car: "Frota Corporativa"
     }

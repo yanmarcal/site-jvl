@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-1.5">
             <MapPin className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-            <span>Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140</span>
+            <span>Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP, CEP 07180-140</span>
           </div>
           <div className="flex items-center gap-3">
             <span className="font-semibold text-emerald-500">Atendimento:</span>

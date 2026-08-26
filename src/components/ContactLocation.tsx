@@ -103,7 +103,7 @@ export default function ContactLocation() {
                 </div>
                 <div>
                   <h4 className="font-bold text-white uppercase text-xs">Endereço</h4>
-                  <p className="text-slate-300 text-sm mt-1">Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140</p>
+                  <p className="text-slate-300 text-sm mt-1">Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP, CEP 07180-140</p>
                 </div>
               </div>
               

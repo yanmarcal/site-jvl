@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "JVL Implementos Rodoviários | Especialistas em Mecânica de Carretas",
-  description: "Especialistas em mecânica de carretas, manutenção pesada, revisão elétrica, suspensão, inspeção veicular e autopeças em São Paulo. Desde 2010. ATENDER É O NOSSO NEGÓCIO!!",
+  description: "Especialistas em mecânica de carretas, manutenção pesada, revisão elétrica, suspensão, inspeção veicular e autopeças em São Paulo. Desde 2010. ATENDER É O NOSSO NEGÓCIO!",
   keywords: [
     "JVL Implementos Rodoviários",
     "mecânica de carretas",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   authors: [{ name: "JVL Implementos Rodoviários" }],
   openGraph: {
     title: "JVL Implementos Rodoviários - Mecânica de Carretas",
-    description: "Manutenção pesada, revisão elétrica, suspensão e inspeção veicular em São Paulo - SP. ATENDER É O NOSSO NEGÓCIO!!",
+    description: "Manutenção pesada, revisão elétrica, suspensão e inspeção veicular em São Paulo - SP. ATENDER É O NOSSO NEGÓCIO!",
     url: "https://jvlimplementos.com.br",
     siteName: "JVL Implementos Rodoviários",
     locale: "pt_BR",
