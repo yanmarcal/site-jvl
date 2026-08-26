@@ -39,7 +39,7 @@ const catalogItems = [
     title: "Prancha",
     desc: "Transporte de máquinas, veículos e equipamentos pesados com rampas e piso metálico.",
     specs: ["Rampas", "Piso metálico", "Baixo peso próprio"],
-    image: "https://images.unsplash.com/photo-1605810757279-880479f64bf5?q=80&w=1000&auto=format&fit=crop",
+    image: "/JVL05.jpeg",
     msg: "Carreta Prancha",
   },
   {
