@@ -24,22 +24,22 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-20 sm:py-28 lg:py-36">
         <div className="max-w-2xl flex flex-col gap-5">
-          <div className="inline-flex items-center gap-2 self-start bg-emerald-950/80 backdrop-blur-sm border border-emerald-500/40 text-emerald-400 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">
-            <Award className="w-4 h-4 text-emerald-500" />
-            <span className="text-emerald-500">Especialistas em Carretas Desde 2010 • Mais de 14 Anos</span>
+          <div className="inline-flex items-center gap-2 self-start bg-jvl-green/80 backdrop-blur-sm border border-jvl-green/40 text-jvl-green px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider">
+            <Award className="w-4 h-4 text-jvl-green" />
+            <span className="text-jvl-green">Especialistas em Carretas Desde 2010 • Mais de 14 Anos</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white leading-tight drop-shadow-lg">
             MECÂNICA PESADA E REVISÃO DE{" "}
-            <span className="text-emerald-500">CARRETAS</span> EM SÃO PAULO
+            <span className="text-jvl-green">CARRETAS</span> EM SÃO PAULO
           </h1>
 
           <p className="text-base sm:text-lg text-slate-200 leading-relaxed drop-shadow-md">
             Manutenção preventiva e corretiva, elétrica, suspensão, inspeção completa e fornecimento de autopeças para transportadoras, frotas próprias e agregados.
           </p>
 
-<p className="text-emerald-500 font-bold uppercase tracking-wider text-sm">
-              &quot;Atender é o negócio!!&quot;
+<p className="text-jvl-green font-bold uppercase tracking-wider text-sm">
+              "Atender é o negócio!!"
             </p>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
@@ -47,7 +47,7 @@ export default function Hero() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-black text-base px-6 py-3.5 rounded-xl shadow-xl transition-all border border-emerald-500/40"
+              className="inline-flex items-center justify-center gap-2 bg-jvl-green hover:bg-jvl-green/90 text-white font-black text-base px-6 py-3.5 rounded-xl shadow-xl transition-all border border-jvl-green/40"
             >
               <MessageSquare className="w-5 h-5" />
               <span>ORÇAMENTO NO WHATSAPP</span>
@@ -58,16 +58,16 @@ export default function Hero() {
               href="#catalogo"
               className="inline-flex items-center justify-center gap-2 bg-slate-950/70 backdrop-blur-sm hover:bg-blue-900 text-slate-100 font-semibold text-base px-6 py-3.5 rounded-xl border border-slate-600 transition-all"
             >
-              <LayoutGrid className="w-5 h-5 text-emerald-500" />
+              <LayoutGrid className="w-5 h-5 text-jvl-green" />
               <span>Conheça o Catálogo</span>
             </a>
           </div>
 
           <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-slate-300 pt-1">
             <span>Fale direto no WhatsApp:</span>
-            <a href="https://wa.me/5511988887555" target="_blank" rel="noopener noreferrer" className="text-emerald-500 font-bold hover:underline">(11) 98888-7555</a>
+            <a href="https://wa.me/5511988887555" target="_blank" rel="noopener noreferrer" className="text-jvl-green font-bold hover:underline">(11) 98888-7555</a>
             <span className="text-slate-600">|</span>
-            <a href="https://wa.me/5511992144678" target="_blank" rel="noopener noreferrer" className="text-emerald-500 font-bold hover:underline">(11) 99214-4678</a>
+            <a href="https://wa.me/5511992144678" target="_blank" rel="noopener noreferrer" className="text-jvl-green font-bold hover:underline">(11) 99214-4678</a>
           </div>
         </div>
       </div>

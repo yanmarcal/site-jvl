@@ -13,18 +13,18 @@ export default function Navbar() {
       <div className="bg-slate-950 border-b border-slate-500/30 text-xs text-slate-300 py-2 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-1.5">
-            <MapPin className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
+            <MapPin className="w-3.5 h-3.5 text-jvl-green shrink-0" />
             <span>Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140</span>
           </div>
           <div className="flex items-center gap-3">
-            <span className="font-semibold text-emerald-500">Atendimento:</span>
-            <a href="https://wa.me/5511988887555" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-emerald-500 font-medium">
-              <Phone className="w-3.5 h-3.5 text-emerald-500" />
+            <span className="font-semibold text-jvl-green">Atendimento:</span>
+            <a href="https://wa.me/5511988887555" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-jvl-green font-medium">
+              <Phone className="w-3.5 h-3.5 text-jvl-green" />
               <span>(11) 98888-7555</span>
             </a>
             <span className="text-slate-600">|</span>
-            <a href="https://wa.me/5511992144678" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-emerald-500 font-medium">
-              <Phone className="w-3.5 h-3.5 text-emerald-500" />
+            <a href="https://wa.me/5511992144678" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-jvl-green font-medium">
+              <Phone className="w-3.5 h-3.5 text-jvl-green" />
               <span>(11) 99214-4678</span>
             </a>
           </div>
@@ -40,7 +40,7 @@ export default function Navbar() {
                 alt="Logo JVL Implementos Rodoviários"
                 width={48}
                 height={48}
-                className="w-12 h-12 rounded-full object-cover shadow-lg shadow-emerald-900/40 border border-slate-500/30 bg-slate-950"
+                className="w-12 h-12 rounded-full object-cover shadow-lg shadow-jvl-green/40 border border-slate-500/30 bg-slate-950"
                 priority
               />
             </div>
@@ -55,13 +55,13 @@ export default function Navbar() {
           </a>
 
           <div className="hidden md:flex items-center gap-6 font-medium text-sm text-slate-300">
-            <a href="#inicio" className="hover:text-emerald-500">Início</a>
-            <a href="#catalogo" className="hover:text-emerald-500">Catálogo</a>
-            <a href="#servicos" className="hover:text-emerald-500">Serviços</a>
-            <a href="#sobre" className="hover:text-emerald-500">Sobre Nós</a>
-            <a href="#diferenciais" className="hover:text-emerald-500">Diferenciais</a>
-            <a href="#depoimentos" className="hover:text-emerald-500">Depoimentos</a>
-            <a href="#contato" className="hover:text-emerald-500">Contato</a>
+            <a href="#inicio" className="hover:text-jvl-green">Início</a>
+            <a href="#catalogo" className="hover:text-jvl-green">Catálogo</a>
+            <a href="#servicos" className="hover:text-jvl-green">Serviços</a>
+            <a href="#sobre" className="hover:text-jvl-green">Sobre Nós</a>
+            <a href="#diferenciais" className="hover:text-jvl-green">Diferenciais</a>
+            <a href="#depoimentos" className="hover:text-jvl-green">Depoimentos</a>
+            <a href="#contato" className="hover:text-jvl-green">Contato</a>
           </div>
 
           <div className="hidden lg:flex items-center">
@@ -69,7 +69,7 @@ export default function Navbar() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm px-4 py-2 rounded-lg shadow-md border border-slate-500/30"
+              className="inline-flex items-center gap-2 bg-jvl-green hover:text-slate-100"
             >
               <MessageSquare className="w-4 h-4" />
               <span>Orçamento WhatsApp</span>

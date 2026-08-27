@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { LifeBuoy, MessageSquare, Clock, ShieldCheck, MapPin } from "lucide-react";
 
-const SOCORRO_IMAGE =
-  "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1200&q=70";
+const SOCORRO_IMAGE = "/JVL.jpeg";
 
 export default function RoadsideBanner() {
   const waUrl = `https://wa.me/5511988887555?text=${encodeURIComponent("Olá! Preciso de SOCORRO na estrada agora!")}`;
