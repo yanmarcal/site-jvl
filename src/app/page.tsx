@@ -13,7 +13,7 @@ import FloatingWhatsapp from "@/components/FloatingWhatsapp";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 selection:bg-emerald-500 selection:text-white">
+    <main className="min-h-screen bg-slate-950 text-slate-100 selection:bg-lime-400 selection:text-slate-950">
       <Navbar />
       <Hero />
       <StatsBar />

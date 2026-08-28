@@ -9,7 +9,7 @@ export default function FloatingWhatsapp() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Fale conosco no WhatsApp"
-      className="fixed bottom-6 right-6 z-50 bg-emerald-600 hover:bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-transform hover:scale-110 group animate-bounce"
+      className="fixed bottom-6 right-6 z-50 bg-lime-400 hover:bg-lime-400/90 text-slate-950 w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-transform hover:scale-110 group animate-bounce"
     >
       <MessageSquare className="w-7 h-7" />
       <span className="absolute right-16 bg-slate-900 text-white text-xs font-bold py-1.5 px-3 rounded-lg shadow-lg border border-slate-700 opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">

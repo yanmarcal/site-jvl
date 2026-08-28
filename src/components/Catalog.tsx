@@ -57,11 +57,11 @@ export default function Catalog() {
     <section id="catalogo" className="py-16 bg-slate-950 border-b border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center max-w-3xl mx-auto mb-10">
-          <span className="bg-emerald-950 border border-emerald-500/30 text-emerald-400 px-3 py-1 rounded-full text-xs font-bold uppercase">
+          <span className="bg-lime-950 border border-lime-400/30 text-lime-400 px-3 py-1 rounded-full text-xs font-bold uppercase">
             Catálogo JVL
           </span>
           <h2 className="text-3xl font-black text-white mt-3">
-            Veículos & <span className="text-emerald-400">Implementos Rodoviários</span>
+            Veículos & <span className="text-lime-400">Implementos Rodoviários</span>
           </h2>
           <p className="mt-2 text-slate-300 text-sm">
             Trabalhamos com as principais categorias do transporte pesado — venda, reforma e manutenção especializada.
@@ -75,7 +75,7 @@ export default function Catalog() {
             return (
               <article
                 key={idx}
-                className="group bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden hover:border-emerald-500/50 transition-all shadow-lg"
+                className="group bg-slate-900 rounded-2xl border border-slate-800 overflow-hidden hover:border-lime-400/50 transition-all shadow-lg"
               >
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <Image
@@ -86,14 +86,14 @@ export default function Catalog() {
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent" />
-                  <div className="absolute top-3 left-3 flex items-center gap-2 bg-slate-950/80 backdrop-blur-sm border border-emerald-500/30 text-emerald-300 rounded-lg px-2.5 py-1.5">
+                  <div className="absolute top-3 left-3 flex items-center gap-2 bg-slate-950/80 backdrop-blur-sm border border-lime-400/30 text-lime-300 rounded-lg px-2.5 py-1.5">
                     <Icon className="w-4 h-4" />
                     <span className="text-[10px] font-bold uppercase tracking-wider">JVL {String(idx + 1).padStart(2, "0")}</span>
                   </div>
                 </div>
 
                 <div className="p-5 flex flex-col gap-3">
-                  <h3 className="text-lg font-black text-white group-hover:text-emerald-400 transition-colors">
+                  <h3 className="text-lg font-black text-white group-hover:text-lime-400 transition-colors">
                     {item.title}
                   </h3>
                   <p className="text-xs text-slate-300 leading-relaxed">{item.desc}</p>
@@ -113,9 +113,9 @@ export default function Catalog() {
                     href={waUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-1 w-full inline-flex items-center justify-center gap-2 bg-slate-950 hover:bg-emerald-600 text-slate-100 font-bold text-xs py-3 rounded-xl border border-slate-700 transition-all"
+                    className="mt-1 w-full inline-flex items-center justify-center gap-2 bg-slate-950 hover:bg-lime-400 hover:text-slate-950 text-slate-100 font-bold text-xs py-3 rounded-xl border border-slate-700 transition-all"
                   >
-                    <MessageSquare className="w-3.5 h-3.5 text-emerald-400" />
+                    <MessageSquare className="w-3.5 h-3.5 text-lime-400" />
                     <span>Pedir orçamento</span>
                     <ArrowUpRight className="w-3.5 h-3.5" />
                   </a>
@@ -125,7 +125,7 @@ export default function Catalog() {
           })}
         </div>
 
-        <div className="mt-8 p-5 rounded-2xl bg-gradient-to-r from-emerald-950/80 via-slate-900 to-slate-900 border border-emerald-500/30 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-8 p-5 rounded-2xl bg-gradient-to-r from-lime-950/80 via-slate-900 to-slate-900 border border-lime-400/30 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-center sm:text-left">
             <h3 className="text-base font-bold text-white">Não encontrou o implemento ideal?</h3>
             <p className="text-xs text-slate-300 mt-0.5">
@@ -136,7 +136,7 @@ export default function Catalog() {
             href={`https://wa.me/5511988887555?text=${encodeURIComponent("Olá! Preciso de um implemento personalizado.")}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="shrink-0 inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm px-5 py-2.5 rounded-xl shadow-lg transition-all"
+            className="shrink-0 inline-flex items-center gap-2 bg-lime-400 hover:bg-lime-400/90 text-slate-950 font-bold text-sm px-5 py-2.5 rounded-xl shadow-lg transition-all"
           >
             <MessageSquare className="w-4 h-4" />
             <span>Falar com especialista</span>

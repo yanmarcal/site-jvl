@@ -25,7 +25,7 @@ export default function ContactLocation() {
                 <input 
                   id="nome" 
                   type="text" 
-                  className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-2.5 focus:outline-none focus:border-emerald-500 transition-colors"
+                  className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-2.5 focus:outline-none focus:border-lime-400 transition-colors"
                   placeholder="Seu nome"
                   required
                 />
@@ -38,7 +38,7 @@ export default function ContactLocation() {
                 <input 
                   id="email" 
                   type="email" 
-                  className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-2.5 focus:outline-none focus:border-emerald-500 transition-colors"
+                  className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-2.5 focus:outline-none focus:border-lime-400 transition-colors"
                   placeholder="seu@email.com"
                   required
                 />
@@ -51,7 +51,7 @@ export default function ContactLocation() {
                 <input 
                   id="telefone" 
                   type="tel" 
-                  className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-2.5 focus:outline-none focus:border-emerald-500 transition-colors"
+                  className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-2.5 focus:outline-none focus:border-lime-400 transition-colors"
                   placeholder="(11) 98888-7555"
                   required
                 />
@@ -64,7 +64,7 @@ export default function ContactLocation() {
                 <textarea 
                   id="mensagem" 
                   rows={4} 
-                  className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-3 resize-none focus:outline-none focus:border-emerald-500 transition-colors"
+                  className="w-full bg-slate-900 border border-slate-700 text-white rounded-lg px-4 py-3 resize-none focus:outline-none focus:border-lime-400 transition-colors"
                   placeholder="Sua mensagem aqui..."
                   required
                 ></textarea>
@@ -72,7 +72,7 @@ export default function ContactLocation() {
               
               <button 
                 type="submit" 
-                className="w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all border border-emerald-500/40"
+                className="w-full bg-lime-400 hover:bg-lime-400/90 text-slate-950 font-bold py-3 px-6 rounded-xl shadow-lg transition-all border border-lime-400/40"
               >
                 Enviar
               </button>
@@ -98,7 +98,7 @@ export default function ContactLocation() {
               
               {/* Card: Endereço */}
               <div className="bg-slate-800/50 rounded-xl border border-slate-600 p-4 flex items-start gap-3">
-                <div className="w-8 h-8 rounded-xl bg-emerald-600 flex items-center justify-center shrink-0">
+                <div className="w-8 h-8 rounded-xl bg-lime-400 flex items-center justify-center shrink-0">
                   <MapPin className="w-4 h-4 text-slate-950" />
                 </div>
                 <div>
@@ -109,7 +109,7 @@ export default function ContactLocation() {
               
               {/* Card: WhatsApp */}
               <div className="bg-slate-800/50 rounded-xl border border-slate-600 p-4 flex items-start gap-3">
-                <div className="w-8 h-8 rounded-xl bg-emerald-600 flex items-center justify-center shrink-0">
+                <div className="w-8 h-8 rounded-xl bg-lime-400 flex items-center justify-center shrink-0">
                   <Phone className="w-4 h-4 text-slate-950" />
                 </div>
                 <div>
@@ -120,12 +120,12 @@ export default function ContactLocation() {
               
               {/* Card: E-mail */}
               <div className="bg-slate-800/50 rounded-xl border border-slate-600 p-4 flex items-start gap-3">
-                <div className="w-8 h-8 rounded-xl bg-emerald-600 flex items-center justify-center shrink-0">
+                <div className="w-8 h-8 rounded-xl bg-lime-400 flex items-center justify-center shrink-0">
                   <Mail className="w-4 h-4 text-slate-950" />
                 </div>
                 <div>
                   <h4 className="font-bold text-white uppercase text-xs">E-mail</h4>
-                  <a href="mailto:jvl@jvlimplementos.com" className="text-slate-300 hover:text-emerald-500 transition-colors text-sm mt-1">
+                  <a href="mailto:jvl@jvlimplementos.com" className="text-slate-300 hover:text-lime-400 transition-colors text-sm mt-1">
                     jvl@jvlimplementos.com
                   </a>
                 </div>
@@ -133,7 +133,7 @@ export default function ContactLocation() {
               
               {/* Card: Horário */}
               <div className="bg-slate-800/50 rounded-xl border border-slate-600 p-4 flex items-start gap-3">
-                <div className="w-8 h-8 rounded-xl bg-emerald-500 flex items-center justify-center shrink-0">
+                <div className="w-8 h-8 rounded-xl bg-lime-400 flex items-center justify-center shrink-0">
                   <Clock className="w-4 h-4 text-slate-950" />
                 </div>
                 <div>

@@ -17,16 +17,16 @@ export default function Footer() {
                 alt="Logo JVL Implementos Rodoviários"
                 width={48}
                 height={48}
-                className="w-11 h-11 rounded-full object-cover shadow-lg border border-emerald-500/30 bg-slate-900"
+                className="w-11 h-11 rounded-full object-cover shadow-lg border border-lime-400/30 bg-slate-900"
               />
               <span className="font-black text-white text-base tracking-wider uppercase">
-                JVL <span className="text-emerald-400">Implementos</span>
+                JVL <span className="text-lime-400">Implementos</span>
               </span>
             </div>
             <p className="text-slate-400 leading-relaxed text-xs">
               Especialistas em mecânica de carretas, suspensão, elétrica e manutenção pesada em São Paulo desde 2010.
             </p>
-            <div className="p-3 rounded-lg bg-emerald-950/40 border border-emerald-500/20 text-emerald-400 font-bold uppercase text-[11px]">
+            <div className="p-3 rounded-lg bg-lime-950/40 border border-lime-400/20 text-lime-400 font-bold uppercase text-[11px]">
               &quot;ATENDER É O NOSSO NEGÓCIO!!&quot;
             </div>
           </div>
@@ -38,7 +38,7 @@ export default function Footer() {
                 const hrefs = ["#inicio", "#servicos", "#sobre", "#diferenciais", "#depoimentos", "#contato"];
                 return (
                   <li key={idx}>
-                    <a href={hrefs[idx]} className="hover:text-emerald-400 transition-colors">
+                    <a href={hrefs[idx]} className="hover:text-lime-400 transition-colors">
                       {item}
                     </a>
                   </li>
@@ -50,11 +50,11 @@ export default function Footer() {
           <div className="space-y-3">
             <h3 className="text-white font-bold text-sm uppercase tracking-wider">Serviços</h3>
             <ul className="space-y-2">
-              <li className="hover:text-emerald-400">Manutenção de Carretas</li>
-              <li className="hover:text-emerald-400">Elétrica & Lanternagem</li>
-              <li className="hover:text-emerald-400">Inspeção Veicular</li>
-              <li className="hover:text-emerald-400">Suspensão Pesada</li>
-              <li className="hover:text-emerald-400">Autopeças para Frotas</li>
+              <li className="hover:text-lime-400">Manutenção de Carretas</li>
+              <li className="hover:text-lime-400">Elétrica & Lanternagem</li>
+              <li className="hover:text-lime-400">Inspeção Veicular</li>
+              <li className="hover:text-lime-400">Suspensão Pesada</li>
+              <li className="hover:text-lime-400">Autopeças para Frotas</li>
             </ul>
           </div>
 
@@ -62,15 +62,15 @@ export default function Footer() {
             <h3 className="text-white font-bold text-sm uppercase tracking-wider">Contato Direto</h3>
             <div className="space-y-2 text-xs">
               <p className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-lime-400 shrink-0 mt-0.5" />
                 <span>Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140</span>
               </p>
               <p className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
+                <Phone className="w-4 h-4 text-lime-400 shrink-0" />
                 <span>(11) 98888-7555 / 99214-4678</span>
               </p>
               <p className="flex items-center gap-2">
-                <Clock className="w-4 h-4 text-emerald-400 shrink-0" />
+                <Clock className="w-4 h-4 text-lime-400 shrink-0" />
                 <span>Seg a Sex: 08h às 18h | Sáb: 08h às 12h</span>
               </p>
             </div>
@@ -78,7 +78,7 @@ export default function Footer() {
               href={waUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-3 inline-flex items-center justify-center gap-2 w-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-2.5 px-3 rounded-xl transition-all"
+              className="mt-3 inline-flex items-center justify-center gap-2 w-full bg-lime-400 hover:bg-lime-400/90 text-slate-950 font-bold py-2.5 px-3 rounded-xl transition-all"
             >
               <MessageSquare className="w-4 h-4" />
               <span>WhatsApp JVL</span>

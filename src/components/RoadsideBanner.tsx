@@ -26,13 +26,13 @@ export default function RoadsideBanner() {
           </div>
 
           <div className="flex flex-col justify-center gap-4 order-1 lg:order-2">
-            <span className="inline-flex items-center gap-2 self-start bg-emerald-950 border border-emerald-500/30 text-emerald-400 px-3 py-1 rounded-full text-xs font-bold uppercase">
+            <span className="inline-flex items-center gap-2 self-start bg-lime-950 border border-lime-400/30 text-lime-400 px-3 py-1 rounded-full text-xs font-bold uppercase">
               <LifeBuoy className="w-4 h-4" />
               Socorro Rápido na Estrada
             </span>
 
             <h2 className="text-2xl sm:text-3xl font-black text-white leading-tight">
-              Deu pane no meio da rota? A <span className="text-emerald-400">JVL</span> coloca você de volta à estrada.
+              Deu pane no meio da rota? A <span className="text-lime-400">JVL</span> coloca você de volta à estrada.
             </h2>
 
             <p className="text-sm text-slate-300 leading-relaxed">
@@ -48,8 +48,8 @@ export default function RoadsideBanner() {
                 const Icon = item.icon;
                 return (
                   <li key={idx} className="flex items-center gap-2.5">
-                    <span className="w-8 h-8 shrink-0 rounded-lg bg-emerald-950 border border-emerald-500/30 flex items-center justify-center">
-                      <Icon className="w-4 h-4 text-emerald-400" />
+                    <span className="w-8 h-8 shrink-0 rounded-lg bg-lime-950 border border-lime-400/30 flex items-center justify-center">
+                      <Icon className="w-4 h-4 text-lime-400" />
                     </span>
                     <span>{item.text}</span>
                   </li>
@@ -61,7 +61,7 @@ export default function RoadsideBanner() {
               href={waUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="self-start inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-black text-base px-6 py-3.5 rounded-xl shadow-xl mt-2 transition-all border border-emerald-400/40"
+              className="self-start inline-flex items-center gap-2 bg-lime-400 hover:bg-lime-400/90 text-slate-950 font-black text-base px-6 py-3.5 rounded-xl shadow-xl mt-2 transition-all border border-lime-400/40"
             >
               <MessageSquare className="w-5 h-5" />
               <span>PRECISO DE SOCORRO AGORA</span>

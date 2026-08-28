@@ -30,11 +30,11 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="bg-emerald-950 border border-emerald-500/30 text-emerald-400 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+          <span className="bg-lime-950 border border-lime-400/30 text-lime-400 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
             Depoimentos
           </span>
           <h2 className="text-3xl sm:text-4xl font-black text-white mt-3 tracking-tight">
-            O Que Dizem Nossos <span className="text-emerald-400">Clientes e Parceiros</span>
+            O Que Dizem Nossos <span className="text-lime-400">Clientes e Parceiros</span>
           </h2>
           <p className="mt-3 text-slate-300 text-sm sm:text-base">
             A confiança de transportadoras, gestores e motoristas que rodam com a segurança da JVL.
@@ -47,7 +47,7 @@ export default function Testimonials() {
               key={idx}
               className="bg-slate-900 rounded-2xl border border-slate-800 p-6 flex flex-col justify-between relative shadow-lg"
             >
-              <div className="absolute top-6 right-6 text-emerald-500/20">
+              <div className="absolute top-6 right-6 text-lime-400/20">
                 <Quote className="w-10 h-10" />
               </div>
 
@@ -67,7 +67,7 @@ export default function Testimonials() {
                 <div className="flex items-center justify-between">
                   <div>
                     <h3 className="text-sm font-bold text-white">{item.name}</h3>
-                    <p className="text-[11px] text-emerald-400">{item.role}</p>
+                    <p className="text-[11px] text-lime-400">{item.role}</p>
                   </div>
                   <span className="text-[10px] bg-slate-950 text-slate-400 px-2.5 py-1 rounded-full border border-slate-800">
                     {item.car}

@@ -43,11 +43,11 @@ export default function Services() {
     <section id="servicos" className="py-16 bg-slate-900 border-b border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center max-w-3xl mx-auto mb-10">
-          <span className="bg-emerald-950 border border-emerald-500/30 text-emerald-400 px-3 py-1 rounded-full text-xs font-bold uppercase">
+          <span className="bg-lime-950 border border-lime-400/30 text-lime-400 px-3 py-1 rounded-full text-xs font-bold uppercase">
             Nossas Especialidades
           </span>
           <h2 className="text-3xl font-black text-white mt-3">
-            Serviços Completos em <span className="text-emerald-400">Mecânica de Carretas</span>
+            Serviços Completos em <span className="text-lime-400">Mecânica de Carretas</span>
           </h2>
           <p className="mt-2 text-slate-300 text-sm">
             Soluções ágeis e confiáveis para manter sua carreta e frota rodando com segurança.
@@ -59,13 +59,13 @@ export default function Services() {
             const Icon = srv.icon;
             const waUrl = `https://wa.me/5511988887555?text=${encodeURIComponent("Olá! Gostaria de um orçamento para " + srv.msg)}`;
             return (
-              <div key={idx} className="bg-slate-950 rounded-2xl border border-slate-800 p-5 flex flex-col justify-between hover:border-emerald-500/50 transition-all">
+              <div key={idx} className="bg-slate-950 rounded-2xl border border-slate-800 p-5 flex flex-col justify-between hover:border-lime-400/50 transition-all">
                 <div>
                   <div className="flex items-center justify-between mb-3">
-                    <div className="w-10 h-10 rounded-xl bg-emerald-950 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+                    <div className="w-10 h-10 rounded-xl bg-lime-950 border border-lime-400/30 flex items-center justify-center text-lime-400">
                       <Icon className="w-5 h-5" />
                     </div>
-                    <span className="text-[10px] font-bold text-emerald-400 bg-emerald-950 px-2 py-0.5 rounded border border-emerald-900">
+                    <span className="text-[10px] font-bold text-lime-400 bg-lime-950 px-2 py-0.5 rounded border border-lime-900">
                       0{idx + 1}
                     </span>
                   </div>
@@ -74,14 +74,14 @@ export default function Services() {
                   <ul className="space-y-1 mb-4 text-xs text-slate-300">
                     {srv.features.map((f, i) => (
                       <li key={i} className="flex items-center gap-2">
-                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-lime-400" />
                         <span>{f}</span>
                       </li>
                     ))}
                   </ul>
                 </div>
-                <a href={waUrl} target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-emerald-600 text-slate-200 font-bold text-xs py-2.5 rounded-xl border border-slate-700 transition-all">
-                  <MessageSquare className="w-3.5 h-3.5 text-emerald-400" />
+                <a href={waUrl} target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-lime-400 hover:text-slate-950 text-slate-200 font-bold text-xs py-2.5 rounded-xl border border-slate-700 transition-all">
+                  <MessageSquare className="w-3.5 h-3.5 text-lime-400" />
                   <span>Orçamento WhatsApp</span>
                   <ArrowUpRight className="w-3.5 h-3.5" />
                 </a>
@@ -89,18 +89,18 @@ export default function Services() {
             );
           })}
 
-          <div className="bg-gradient-to-br from-emerald-950 via-slate-950 to-slate-950 rounded-2xl border border-emerald-500/40 p-5 flex flex-col justify-between shadow-xl">
+          <div className="bg-gradient-to-br from-lime-950 via-slate-950 to-slate-950 rounded-2xl border border-lime-400/40 p-5 flex flex-col justify-between shadow-xl">
             <div>
-              <div className="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center mb-3 font-black text-base">
+              <div className="w-10 h-10 rounded-xl bg-lime-400 text-slate-950 flex items-center justify-center mb-3 font-black text-base">
                 JVL
               </div>
               <h3 className="text-base font-bold text-white mb-2">Atendimento para Frotas</h3>
               <p className="text-slate-300 text-xs mb-3">Diagnóstico ágil para minimizar tempo de parada no pátio.</p>
-              <div className="p-2.5 bg-slate-900/90 rounded-lg text-xs text-emerald-300 font-semibold mb-3 border border-emerald-800/40">
+              <div className="p-2.5 bg-slate-900/90 rounded-lg text-xs text-lime-300 font-semibold mb-3 border border-lime-800/40">
                 ⚡ Atendimento prioritário para transportadoras!
               </div>
             </div>
-            <a href="https://wa.me/5511988887555?text=Ol%C3%A1!%20Preciso%20de%20atendimento%20para%20minha%20carreta." target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs py-3 rounded-xl shadow-lg">
+            <a href="https://wa.me/5511988887555?text=Ol%C3%A1!%20Preciso%20de%20atendimento%20para%20minha%20carreta." target="_blank" rel="noopener noreferrer" className="w-full inline-flex items-center justify-center gap-2 bg-lime-400 hover:bg-lime-400/90 text-slate-950 font-bold text-xs py-3 rounded-xl shadow-lg">
               <MessageSquare className="w-4 h-4" />
               <span>Chamar no WhatsApp</span>
             </a>

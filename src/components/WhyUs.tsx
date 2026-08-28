@@ -39,11 +39,11 @@ export default function WhyUs() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="bg-emerald-950 border border-emerald-500/30 text-emerald-400 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+          <span className="bg-lime-950 border border-lime-400/30 text-lime-400 px-3.5 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
             Por Que Escolher a JVL?
           </span>
           <h2 className="text-3xl sm:text-4xl font-black text-white mt-3 tracking-tight">
-            Nossos Diferenciais de <span className="text-emerald-400">Atendimento</span>
+            Nossos Diferenciais de <span className="text-lime-400">Atendimento</span>
           </h2>
           <p className="mt-3 text-slate-300 text-sm sm:text-base">
             Qualidade, rapidez e compromisso com o sucesso do seu transporte de carga.
@@ -56,9 +56,9 @@ export default function WhyUs() {
             return (
               <div
                 key={idx}
-                className="bg-slate-950 p-6 rounded-2xl border border-slate-800 hover:border-emerald-500/40 transition-all hover:-translate-y-1"
+                className="bg-slate-950 p-6 rounded-2xl border border-slate-800 hover:border-lime-400/40 transition-all hover:-translate-y-1"
               >
-                <div className="w-12 h-12 rounded-xl bg-emerald-950 border border-emerald-500/30 flex items-center justify-center text-emerald-400 mb-4">
+                <div className="w-12 h-12 rounded-xl bg-lime-950 border border-lime-400/30 flex items-center justify-center text-lime-400 mb-4">
                   <Icon className="w-6 h-6" />
                 </div>
                 <h3 className="text-lg font-bold text-white mb-2">{item.title}</h3>

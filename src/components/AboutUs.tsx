@@ -8,12 +8,12 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           
           <div className="lg:col-span-6 space-y-6">
-            <div className="inline-flex items-center gap-2 bg-emerald-950 border border-emerald-500/30 text-emerald-500 px-3.5 py-1 rounded-full text-xs font-bold uppercase">
+            <div className="inline-flex items-center gap-2 bg-lime-950 border border-lime-400/30 text-lime-400 px-3.5 py-1 rounded-full text-xs font-bold uppercase">
               Nossa História
             </div>
 
             <h2 className="text-3xl sm:text-4xl font-black text-white tracking-tight leading-tight">
-              Especialistas em Mecânica de Carretas <span className="text-emerald-500">Desde 2010</span>
+              Especialistas em Mecânica de Carretas <span className="text-lime-400">Desde 2010</span>
             </h2>
 
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
@@ -24,8 +24,8 @@ export default function AboutUs() {
               Sabemos que cada hora de um caminhão parado no pátio representa prejuízo para transportadoras, motoristas e gestores de frota. Por isso, aliamos conhecimento técnico especializado, peças de procedência garantida e diagnósticos precisos para entregar o melhor tempo de resposta com máxima segurança nas estradas.
             </p>
 
-            <div className="p-4 rounded-xl bg-gradient-to-r from-emerald-500/80 to-slate-900 border border-emerald-500/40">
-              <div className="flex items-center gap-2 text-emerald-500 font-bold uppercase text-sm tracking-wider">
+            <div className="p-4 rounded-xl bg-gradient-to-r from-lime-400/80 to-slate-900 border border-lime-400/40">
+              <div className="flex items-center gap-2 text-slate-950 font-bold uppercase text-sm tracking-wider">
                 <HeartHandshake className="w-5 h-5" />
                 <span>&quot;ATENDER É O NOSSO NEGÓCIO!!&quot;</span>
               </div>
@@ -42,7 +42,7 @@ export default function AboutUs() {
                 "Localização estratégica em Guarulhos - SP"
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-2 text-xs sm:text-sm text-slate-200">
-                  <CheckCircle className="w-4 h-4 text-emerald-500 shrink-0" />
+                  <CheckCircle className="w-4 h-4 text-lime-400 shrink-0" />
                   <span>{item}</span>
                 </div>
               ))}
@@ -63,7 +63,7 @@ export default function AboutUs() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               
               <div className="bg-slate-950 p-6 rounded-2xl border border-slate-500 space-y-3">
-                <div className="w-10 h-10 rounded-xl bg-emerald-950 text-emerald-500 flex items-center justify-center border border-emerald-500/30">
+                <div className="w-10 h-10 rounded-xl bg-lime-950 text-lime-400 flex items-center justify-center border border-lime-400/30">
                   <Target className="w-5 h-5" />
                 </div>
                 <h3 className="text-base font-bold text-white">Nossa Missão</h3>
@@ -73,7 +73,7 @@ export default function AboutUs() {
               </div>
 
               <div className="bg-slate-950 p-6 rounded-2xl border border-slate-500 space-y-3">
-                <div className="w-10 h-10 rounded-xl bg-emerald-950 text-emerald-500 flex items-center justify-center border border-emerald-500/30">
+                <div className="w-10 h-10 rounded-xl bg-lime-950 text-lime-400 flex items-center justify-center border border-lime-400/30">
                   <ShieldCheck className="w-5 h-5" />
                 </div>
                 <h3 className="text-base font-bold text-white">Compromisso Técnico</h3>
@@ -84,12 +84,12 @@ export default function AboutUs() {
 
               <div className="bg-slate-950 p-6 rounded-2xl border border-slate-500 space-y-3 sm:col-span-2">
                 <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0">
+                  <div className="w-10 h-10 rounded-xl bg-lime-400 text-slate-950 flex items-center justify-center shrink-0">
                     <Truck className="w-5 h-5" />
                   </div>
                   <div>
                     <h3 className="text-base font-bold text-white">Estrutura & Localização</h3>
-                    <p className="text-xs text-emerald-500 font-semibold flex items-center gap-1 mt-0.5">
+                    <p className="text-xs text-lime-400 font-semibold flex items-center gap-1 mt-0.5">
                       <MapPin className="w-3.5 h-3.5" />
                       Rua Jati, 339 - Cidade Jardim Cumbica, Guarulhos - SP - CEP 07180-140
                     </p>

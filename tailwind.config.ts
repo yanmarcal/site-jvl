@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "jvl-green": "#89F336",
+        "jvl-green": "#95E01D",
       },
     },
   },
