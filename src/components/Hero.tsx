@@ -31,7 +31,7 @@ export default function Hero() {
 
           <h1 className="text-3xl sm:text-5xl font-black tracking-tight text-white leading-tight drop-shadow-lg">
             MECÂNICA PESADA E REVISÃO DE{" "}
-            <span className="text-jvl-green">CARRETAS</span> EM SÃO PAULO
+            <span className="text-jvl-green">CARRETAS E CAMINHÕES</span> EM GUARULHOS - SP
           </h1>
 
           <p className="text-base sm:text-lg text-slate-200 leading-relaxed drop-shadow-md">

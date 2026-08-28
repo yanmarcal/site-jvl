@@ -36,19 +36,19 @@ const catalogItems = [
   },
   {
     icon: Wrench,
-    title: "Prancha",
-    desc: "Transporte de máquinas, veículos e equipamentos pesados com rampas e piso metálico.",
-    specs: ["Rampas", "Piso metálico", "Baixo peso próprio"],
+    title: "Reformas de baú",
+    desc: "Reforma completa de baús, desde a vedação e troca de painéis até o reforço do piso e das estruturais, devolvendo vida útil e segurança à sua carreta.",
+    specs: ["Vedação", "Troca de painéis", "Piso"],
     image: "/JVL05.jpeg",
-    msg: "Carreta Prancha",
+    msg: "Reforma de Baú",
   },
   {
     icon: Fuel,
-    title: "Tanque & Silo",
-    desc: "Soluções para líquidos, combustíveis e pós com compartimentação e válvulas de segurança.",
-    specs: ["Inox/alumínio", "Compartimentado", "Válvulas de segurança"],
+    title: "Alinhamentos",
+    desc: "Serviços de alinhamento de eixos e suspensão, com balanceamento e ajustes precisos para rodar com estabilidade e reduzir o desgaste dos pneus.",
+    specs: ["Alinhamento a laser", "Balanceamento", "Eixos"],
     image: "https://images.unsplash.com/photo-1625047509168-a7026f36de04?auto=format&fit=crop&w=1200&q=70",
-    msg: "Tanque ou Silo",
+    msg: "Alinhamento",
   },
 ];
 

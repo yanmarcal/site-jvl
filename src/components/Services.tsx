@@ -20,7 +20,7 @@ export default function Services() {
       icon: ClipboardCheck,
       title: "Inspeção Veicular Completa",
       desc: "Inspeção de segurança rigorosa para viagens curtas e longas com relatório minucioso.",
-      features: ["Óleo e filtros", "Freios e cuícas", "Pneus e pressão", "Faróis e baú"],
+      features: ["Óleo e filtros", "Freios e cuícas", "Pneus e pressão", "Faróis e baú", "Diagnóstico de desgaste de pneu"],
       msg: "Inspeção Veicular Check-list"
     },
     {
