@@ -23,7 +23,7 @@ const catalogItems = [
     title: "Bitrem & Rodotrem",
     desc: "Máxima capacidade por viagem com conjuntos de 6 eixos ou mais para longas distâncias.",
     specs: ["Conjunto 6+ eixos", "Quinta roda", "+50t de carga"],
-    image: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=70",
+    image: "/bitrem.jpeg",
     msg: "Bitrem ou Rodotrem",
   },
   {
@@ -47,7 +47,7 @@ const catalogItems = [
     title: "Alinhamentos",
     desc: "Serviços de alinhamento de eixos e suspensão, com balanceamento e ajustes precisos para rodar com estabilidade e reduzir o desgaste dos pneus.",
     specs: ["Alinhamento a laser", "Balanceamento", "Eixos"],
-    image: "https://images.unsplash.com/photo-1625047509168-a7026f36de04?auto=format&fit=crop&w=1200&q=70",
+    image: "/Alinhamento.jpeg",
     msg: "Alinhamento",
   },
 ];
