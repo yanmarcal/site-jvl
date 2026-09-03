@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
+const FROM_EMAIL = "jvl@jvlimplementos.com";
+
 function isValidEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
@@ -36,11 +38,11 @@ export async function POST(request: Request) {
     );
   }
 
-  const user = process.env.SMTP_USER;
-  const pass = process.env.SMTP_PASS;
+  const user = process.env.EMAIL_USER || FROM_EMAIL;
+  const pass = process.env.EMAIL_PASS;
 
-  if (!user || !pass) {
-    console.error("Variáveis SMTP_USER/SMTP_PASS não configuradas.");
+  if (!pass) {
+    console.error("Variável de ambiente EMAIL_PASS não configurada.");
     return NextResponse.json(
       { success: false, message: "Erro interno no envio de mensagem." },
       { status: 500 }
@@ -48,45 +50,47 @@ export async function POST(request: Request) {
   }
 
   const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST || "smtp.gmail.com",
-    port: Number(process.env.SMTP_PORT || 465),
-    secure: process.env.SMTP_SECURE === "true",
+    host: process.env.EMAIL_HOST || "smtp.gmail.com",
+    port: Number(process.env.EMAIL_PORT || 465),
+    secure: process.env.EMAIL_SECURE !== "false",
     auth: {
       user,
       pass,
     },
   });
 
-  const to = process.env.CONTACT_TO || "jvl@jvlimplementos.com";
+  const textBody = [
+    `Nome: ${nome}`,
+    `E-mail: ${email}`,
+    `Telefone: ${telefone}`,
+    "",
+    "Mensagem:",
+    mensagem,
+  ].join("\n");
+
+  const htmlBody = `
+    <div style="font-family: Arial, Helvetica, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;">
+      <div style="background-color: #95E01D; padding: 16px 24px;">
+        <h1 style="margin: 0; font-size: 20px; color: #0f172a;">Novo contato pelo site</h1>
+      </div>
+      <div style="padding: 24px;">
+        <p style="margin: 0 0 12px;"><strong>Nome:</strong> ${escapeHtml(nome)}</p>
+        <p style="margin: 0 0 12px;"><strong>E-mail:</strong> ${escapeHtml(email)}</p>
+        <p style="margin: 0 0 12px;"><strong>Telefone:</strong> ${escapeHtml(telefone)}</p>
+        <p style="margin: 24px 0 8px;"><strong>Mensagem:</strong></p>
+        <p style="white-space: pre-wrap; color: #334155;">${escapeHtml(mensagem)}</p>
+      </div>
+    </div>
+  `;
 
   try {
     await transporter.sendMail({
       from: `"Site JVL" <${user}>`,
       replyTo: email,
-      to,
+      to: FROM_EMAIL,
       subject: `Novo contato pelo site - ${nome}`,
-      text: [
-        `Nome: ${nome}`,
-        `E-mail: ${email}`,
-        `Telefone: ${telefone}`,
-        "",
-        "Mensagem:",
-        mensagem,
-      ].join("\n"),
-      html: `
-        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;">
-          <div style="background-color: #95E01D; padding: 16px 24px;">
-            <h1 style="margin: 0; font-size: 20px; color: #0f172a;">Novo contato pelo site</h1>
-          </div>
-          <div style="padding: 24px;">
-            <p style="margin: 0 0 12px;"><strong>Nome:</strong> ${escapeHtml(nome)}</p>
-            <p style="margin: 0 0 12px;"><strong>E-mail:</strong> ${escapeHtml(email)}</p>
-            <p style="margin: 0 0 12px;"><strong>Telefone:</strong> ${escapeHtml(telefone)}</p>
-            <p style="margin: 24px 0 8px;"><strong>Mensagem:</strong></p>
-            <p style="white-space: pre-wrap; color: #334155;">${escapeHtml(mensagem)}</p>
-          </div>
-        </div>
-      `,
+      text: textBody,
+      html: htmlBody,
     });
 
     return NextResponse.json({ success: true, message: "Mensagem enviada com sucesso!" });
