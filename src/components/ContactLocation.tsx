@@ -5,6 +5,9 @@ import { MapPin, Phone, Mail, Clock, CheckCircle2, XCircle, Loader2 } from "luci
 
 const INITIAL_FORM = { nome: "", email: "", telefone: "", mensagem: "" };
 
+const GOOGLE_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbwuZ4Td-i0pn9jeWxIIkxo-eJAYzLb2DVmYo3Mpx559lXZqHkiSyvN9-p4ZWkhj_9uM8g/exec";
+
 export default function ContactLocation() {
   const [form, setForm] = useState(INITIAL_FORM);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -25,22 +28,20 @@ export default function ContactLocation() {
     setMessage("");
 
     try {
-      const res = await fetch("/api/contact", {
+      await fetch(GOOGLE_SCRIPT_URL, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        mode: "no-cors",
+        redirect: "follow",
+        body: JSON.stringify({
+          nome: form.nome,
+          email: form.email,
+          telefone: form.telefone,
+          mensagem: form.mensagem,
+        }),
       });
 
-      const data = await res.json();
-
-      if (!res.ok || !data.success) {
-        setStatus("error");
-        setMessage(data.message || "Não foi possível enviar sua mensagem. Tente novamente.");
-        return;
-      }
-
       setStatus("success");
-      setMessage(data.message || "Mensagem enviada com sucesso!");
+      setMessage("Mensagem enviada com sucesso!");
       setForm(INITIAL_FORM);
     } catch {
       setStatus("error");
